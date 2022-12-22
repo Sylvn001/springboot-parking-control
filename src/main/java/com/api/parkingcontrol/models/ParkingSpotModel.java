@@ -3,6 +3,7 @@ package com.api.parkingcontrol.models;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
@@ -30,7 +31,7 @@ public class ParkingSpotModel implements Serializable {
     private String colorCar;
 
     @Column(nullable = false)
-    private String registrationDate;
+    private LocalDateTime registrationDate;
 
     @Column(nullable = false, length = 130)
     private String responsibleName;
@@ -89,11 +90,11 @@ public class ParkingSpotModel implements Serializable {
         this.colorCar = colorCar;
     }
 
-    public String getRegistrationDate() {
+    public LocalDateTime getRegistrationDate() {
         return registrationDate;
     }
 
-    public void setRegistrationDate(String registrationDate) {
+    public void setRegistrationDate(LocalDateTime registrationDate) {
         this.registrationDate = registrationDate;
     }
 
