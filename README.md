@@ -1,8 +1,8 @@
-# Template Repository Name
+# Parking Control Spring Boot 
 
-> Resume of application here
+> Spring boot parking control application 
 
-### 💻 Main language - Version
+### 💻 Java 17 - Spring Boot 3
 
 <p align="center">
   <a href="#%EF%B8%8F-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
