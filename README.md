@@ -24,7 +24,7 @@
 - [Typescript](https://www.typescriptlang.org/)
 
 ## 💻 Project
-This project as developed with purpose to use for all my projects template :D.
+This project as developed with purpose to study spring boot applications 
 
 ## 🚀 How start
 - Install dependencies using `yarn`
